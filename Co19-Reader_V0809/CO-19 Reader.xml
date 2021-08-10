@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CO-19 Reader</name>
+    </assembly>
+    <members>
+        <member name="T:UnoApp.DiyMessage.CapRectangle">
+            <summary>
+            範圍
+            </summary>
+        </member>
+        <member name="F:UnoApp.DiyMessage.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.DiyMessage.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.DiyMessage.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.Entrance.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.Entrance.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.Entrance.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.Keyform.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.Keyform.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.Keyform.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.LoadingKey.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.LoadingKey.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.LoadingKey.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.Modify.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.Modify.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.Modify.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.New_Paper.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.New_Paper.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.New_Paper.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.onlyUser.iForm_ResizeBefore_Width" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.onlyUser.iForm_ResizeBefore_Height" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.onlyUser.FontSizeMin" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.onlyUser.fRatio_Width" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.onlyUser.fRatio_Height" -->
+        <!-- Badly formed XML comment ignored for member "M:UnoApp.onlyUser.AutoResize(System.Windows.Forms.Control)" -->
+        <member name="F:UnoApp.onlyUser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.onlyUser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.onlyUser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.Form1.iForm_ResizeBefore_Width" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.Form1.iForm_ResizeBefore_Height" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.Form1.FontSizeMin" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.Form1.fRatio_Width" -->
+        <!-- Badly formed XML comment ignored for member "F:UnoApp.Form1.fRatio_Height" -->
+        <member name="M:UnoApp.Form1.DrawStart(System.Drawing.Point)">
+            <summary>
+            初始化选择框
+            </summary>
+            <param name="StartPoint"></param>
+        </member>
+        <member name="M:UnoApp.Form1.ResizeToRectangle(System.Drawing.Point)">
+            <summary>
+            在鼠标移动的时改变选择框的大小
+            </summary>
+            <param name="p">鼠标的位置</param>
+        </member>
+        <member name="M:UnoApp.Form1.DrawRectangle">
+            <summary>
+            绘制选择框
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:UnoApp.Form1.AutoResize(System.Windows.Forms.Control)" -->
+        <member name="T:UnoApp.Form1.CapRectangle">
+            <summary>
+            範圍
+            </summary>
+        </member>
+        <member name="F:UnoApp.Form1.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:UnoApp.Form1.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:UnoApp.Form1.InitializeComponent">
+            <summary>
+            此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+            這個方法的內容。
+            </summary>
+        </member>
+        <member name="F:UnoApp.PasswordForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.PasswordForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.PasswordForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.ProcessBar.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.ProcessBar.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.ProcessBar.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:UnoApp.Program.Main">
+            <summary>
+            應用程式的主要進入點。
+            </summary>
+        </member>
+        <member name="T:UnoApp.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources._000">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources._1234">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.azsij_2empr_001">
+            <summary>
+              查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.CAMERA">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.cry">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.error">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.etrance2">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.Fesco">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.Fesco_">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.Fesco_1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.load">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.panel">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.SETUP">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.SETUP1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.smile">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.START">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.WunoLtd">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.WunoLtd_removebg_preview">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.WunoLtd1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.WunoLtd2">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.上">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.下">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.右">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.左">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:UnoApp.Properties.Resources.底0">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="F:UnoApp.Save.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.Save.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.Save.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.TestResult_Info.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.TestResult_Info.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.TestResult_Info.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:UnoApp.Tools.deviceName">
+            <summary>
+            获取摄像头列表
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="F:UnoApp.windowTake.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UnoApp.windowTake.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:UnoApp.windowTake.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
